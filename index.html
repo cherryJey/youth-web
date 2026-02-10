@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kamirithu Polytechnic | Skills for the Future</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<!-- Header -->
+<header id="header">
+  <nav class="container-narrow">
+    <a href="#home" class="logo">
+      <img src="/images/favicon.ico" alt="Kamirithu Polytechnic">
+      <span>Kamirithu Polytechnic</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#admission">Admission</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-bg active" id="heroBg1" style="background: linear-gradient(to right, rgba(11, 37, 69, 0.85), rgba(11, 37, 69, 0.6)), url('./images/gate1.jpeg') center/cover no-repeat;"></div>
+  <div class="hero-bg inactive" id="heroBg2" style="background: linear-gradient(to right, rgba(11, 37, 69, 0.85), rgba(11, 37, 69, 0.6)), url('./images/gate2.jpeg') center/cover no-repeat;"></div>
+
+  <div class="slide-indicators">
+    <button class="slide-indicator active" data-slide="0"></button>
+    <button class="slide-indicator" data-slide="1"></button>
+  </div>
+
+  <div class="hero-content container-narrow">
+    <div class="hero-text">
+      <h1>Empowering the Future: Your Path to <span class="accent-text">Success</span> Starts Here.</h1>
+      <p>Kamirithu Youth Polytechnic has been instrumental in transforming lives, offering a wide range of courses aligned with industry demands.</p>
+      <a href="#admission" class="btn">Apply Now</a>
+    </div>
+
+    <div class="departments-panel">
+      <h3>
+        <span class="dept-accent"></span>
+        Our Departments
+      </h3>
+      <div class="dept-grid">
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-bolt"></i></div>
+          <span class="dept-name">Electrical Technology</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-building"></i></div>
+          <span class="dept-name">Building Technology</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-utensils"></i></div>
+          <span class="dept-name">Food & Beverage</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-wrench"></i></div>
+          <span class="dept-name">Mechanical</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-cut"></i></div>
+          <span class="dept-name">Cosmetology</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-desktop"></i></div>
+          <span class="dept-name">ICT</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-tshirt"></i></div>
+          <span class="dept-name">Fashion & Design</span>
+        </div>
+        <div class="dept-item">
+          <div class="dept-icon"><i class="fas fa-fire"></i></div>
+          <span class="dept-name">Welding & Fabrication</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+  <div class="stats-grid container-narrow">
+    <div class="stat-item">
+      <h3 class="counter" data-target="2000">600+</h3>
+      <p>Students Enrolled</p>
+    </div>
+    <div class="stat-item">
+      <h3 class="counter" data-target="8">8</h3>
+      <p>Departments</p>
+    </div>
+    <div class="stat-item">
+      <h3 class="counter" data-target="95">95%</h3>
+      <p>Success Rate</p>
+    </div>
+    <div class="stat-item">
+      <h3 class="counter" data-target="50">25</h3>
+      <p>Expert Instructors</p>
+    </div>
+  </div>
+</section>
+
+<!-- Principal Section -->
+<section class="principal-section">
+  <div class="section-header">
+    <h2>Principal's Message</h2>
+  </div>
+
+  <div class="principal-content">
+    <div class="principal-image-wrapper fade-in">
+      <div class="principal-bg-decoration"></div>
+      <img src="./images/avatar.png" alt="Principal" class="principal-image">
+    </div>
+
+    <div class="principal-message fade-in">
+      <blockquote class="principal-quote">
+        "Welcome to Kamirithu Polytechnic. We are committed to skills-based education that empowers youth and transforms communities. Our dedicated staff and modern facilities ensure that every student receives quality training that prepares them for the workforce."
+      </blockquote>
+      <div class="principal-signature">
+        <div class="signature-line"></div>
+        <p class="signature-text">— The Principal</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section class="courses-section" id="courses">
+  <div class="container-narrow">
+    <div class="section-header fade-in">
+      <h2>Our Courses</h2>
+      <p>Explore our comprehensive range of technical courses designed to prepare you for the workforce</p>
+    </div>
+
+    <div class="courses-grid">
+      <!-- Course Card 1 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="./images/electrical.jpeg" alt="Electrical Technology" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>⚡</span>
+            Electrical Technology
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Electrical Installation, Solar, CCTV</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 2 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="./images/food and beverage.jpeg" alt="Food & Beverage" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>🍴</span>
+            Food & Beverage
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Catering & Food Service</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> KNEC, NITA</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="./images/building.jpeg" alt="Building Technology" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>🏗️</span>
+            Building Technology
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Plumbing, Building Construction</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="./images/mechanics.jpeg" alt="Automotive" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>🔧</span>
+            Automotive Engineering
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Motor Vehicle Mechanics & Electronics</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 5 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="./images/hairdressing.jpeg" alt="Cosmetology" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>✂️</span>
+            Cosmetology
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Hairdressing & Beauty Therapy</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | NAVCET – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="/images/comp.jpg" alt="ICT" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>💻</span>
+            Information Technology
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Long Course:</strong> ICT</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Short Courses:</strong> Computer Packages, Graphics, Web Design</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC, KYP</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 7 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="/images/fashion.jpg" alt="Fashion Design" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>👗</span>
+            Fashion & Design
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Fashion Design & Garment Making</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Course Card 8 -->
+      <div class="course-card fade-in">
+        <div class="course-image-wrapper">
+          <img src="/images/welding.jpg" alt="Welding" class="course-image">
+          <div class="course-gradient"></div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">
+            <span>🔥</span>
+            Welding & Fabrication
+          </h3>
+          <div class="course-details">
+            <ul>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Courses:</strong> Welding & Metal Fabrication</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Entry:</strong> KCSE or KCPE</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Exam Body:</strong> NITA, KNEC</li>
+              <li><i class="fas fa-check-circle check-icon"></i> <strong>Duration:</strong> Grade III – 3 Terms | Artisan – 5 Terms</li>
+            </ul>
+          </div>
+          <div class="course-actions">
+            <button class="toggle-btn" onclick="toggleCourse(this)">
+              View Details
+              <i class="fas fa-chevron-down chevron"></i>
+            </button>
+            <a href="#admission" class="apply-btn">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section" id="about">
+  <div class="container-narrow">
+    <div class="about-content">
+      <h2>About Us</h2>
+
+      <div class="about-box">
+        <p><strong>Kamirithu Polytechnic</strong>, located in <strong>Kiambu County</strong>, is a vocational training institution focusing on technical skills and artisan courses. It offers training in areas such as hospitality, plumbing, electrical engineering, motor vehicle mechanics, and ICT, often providing practical, hands-on training to students. It aims to foster skills in engineering and technology.</p>
+      </div>
+
+      <div class="about-box">
+        <h3>Our Mission</h3>
+        <p>To provide world-class training that meets local and international needs and prepare competent and work-ready graduates, empowered to impact their communities and the world through innovation.</p>
+      </div>
+
+      <div class="values-section">
+        <h3>Core Values</h3>
+        <div class="values-grid">
+          <div class="value-item">
+            <i class="fas fa-check"></i>
+            <span>Competence</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-check"></i>
+            <span>Team Work</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-check"></i>
+            <span>Professionalism</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-check"></i>
+            <span>Innovation</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-check"></i>
+            <span>Integrity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="news-section">
+  <div class="container-narrow">
+    <div class="section-header fade-in">
+      <h2>News & Announcements</h2>
+      <p>Stay informed about the latest happenings at our institution. </p>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card fade-in">
+        <div class="news-image-wrapper">
+          <img src="/images/admission open.png" alt="Admissions" class="news-image">
+        </div>
+        <div class="news-content">
+          <h3>January Intake Ongoing</h3>
+          <p>Admissions open for all departments. Apply now to secure your spot.</p>
+        </div>
+      </article>
+
+      <article class="news-card fade-in">
+        <div class="news-image-wrapper">
+          <img src="/images/exams-2024-registration-.png" alt="Exams" class="news-image">
+        </div>
+        <div class="news-content">
+          <h3>NITA, KNEC Exam Registration Ongoing</h3>
+          <p>State-of-the-art computer lab now open for students.</p>
+        </div>
+      </article>
+       <article class="news-card fade-in">
+        <div class="news-image-wrapper">
+          <img src="/images/graduation-png.png" alt="Exams" class="news-image">
+        </div>
+        <div class="news-content">
+          <h3>Class of 2023,2024,2025 Graduation.</h3>
+          <p>The graduation ceremony with take place on <b>27th March 2026</b> at the school graduation square. Congratulation class of 2023,2024 and 2025.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+  <div class="container-narrow">
+    <div class="section-header fade-in">
+      <h2>Campus Gallery</h2>
+      <p>A glimpse into life at Kamirithu Polytechnic</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item fade-in">
+        <img src="/images/mechanics.jpeg" alt="Workshop" class="gallery-image">
+        <div class="gallery-overlay">
+          <span>Students in workshop</span>
+        </div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="/images/hairdressing.jpeg" alt="Classroom" class="gallery-image">
+        <div class="gallery-overlay">
+          <span>Classroom session</span>
+        </div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="/images/building.jpeg" alt="Lab" class="gallery-image">
+        <div class="gallery-overlay">
+          <span>Computer lab</span>
+        </div>
+      </div>
+      <div class="gallery-item fade-in">
+        <img src="/images/food and beverage.jpeg" alt="Training" class="gallery-image">
+        <div class="gallery-overlay">
+          <span>Practical training</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Admission Section -->
+<section class="admission-section" id="admission">
+  <div class="container-narrow">
+    <div class="section-header fade-in">
+      <h2>Online Admission</h2>
+      <p>Start your journey with us today</p>
+    </div>
+
+    <div class="admission-card fade-in">
+      <div class="admission-icon">
+        <i class="fas fa-download"></i>
+      </div>
+
+      <h3>Download Admission Form</h3>
+      <p>Download the admission form below and submit it to the institution along with required documents.</p>
+
+      <a href="./files/Admission letter 2025.2026 NEW.pdf" download class="btn">
+        <i class="fas fa-download"></i>
+        Download Form (PDF)
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="container-narrow">
+    <div class="section-header fade-in">
+      <h2>Contact & Location</h2>
+      <p>Get in touch with us or visit our campus</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-form-wrapper fade-in">
+        <h3>Send Us a Message</h3>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-input" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-input" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-input" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-info-text">
+              <p>Address</p>
+              <p>P.O Box 153-00217 Limuru</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-info-text">
+              <p>Phone</p>
+              <p>0720 803 437</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-info-text">
+              <p>Email</p>
+              <p>kamirithupolytechnic@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map-wrapper fade-in"> <p></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3791.6844983518113!2d36.628453!3d-1.117212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f27cf31e4bdd9%3A0xc5e9f6ea7cb7eb8f!2sVJMH%2B498%2C%20Limuru%20Town.%2C%20Kenya!5e1!3m2!1sen!2sus!4v1770613761452!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content container-narrow">
+    <div>
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="/images/favicon.ico" alt="Kamirithu Polytechnic">
+        </div>
+        <span>Kamirithu Polytechnic</span>
+      </div>
+      <p style="opacity: 0.8;">Skills Today. Careers Tomorrow.</p>
+    </div>
+
+    <!-- <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#admission">Admission</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div> -->
+
+    <!-- <div class="footer-section">
+      <h4>Contact</h4>
+      <div class="footer-contact">
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <span>0799 616231</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>kamirithupolytechnic@gmail.com</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Limuru Town</span>
+        </div>
+      </div>
+    </div> -->
+  </div>
+
+  <div class="footer-bottom container-narrow">
+    © 2026 Kamirithu Polytechnic | All Rights Reserved
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+  // Mobile Menu Toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    const icon = menuToggle.querySelector('i');
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-times');
+  });
+
+  // Close menu when clicking on a link
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      menuToggle.querySelector('i').classList.add('fa-bars');
+      menuToggle.querySelector('i').classList.remove('fa-times');
+    });
+  });
+
+  // Header scroll effect
+  window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    if (window.scrollY > 20) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+
+  // Hero Slider
+  let currentSlide = 0;
+  const slides = [
+    document.getElementById('heroBg1'),
+    document.getElementById('heroBg2')
+  ];
+  const indicators = document.querySelectorAll('.slide-indicator');
+
+  function changeSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    slides[currentSlide].classList.add('inactive');
+    indicators[currentSlide].classList.remove('active');
+
+    currentSlide = index;
+
+    slides[currentSlide].classList.remove('inactive');
+    slides[currentSlide].classList.add('active');
+    indicators[currentSlide].classList.add('active');
+  }
+
+  // Auto slide
+  setInterval(() => {
+    changeSlide((currentSlide + 1) % slides.length);
+  }, 5000);
+
+  // Manual slide control
+  indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', () => {
+      changeSlide(index);
+    });
+  });
+
+  // Course toggle
+  function toggleCourse(button) {
+    const card = button.closest('.course-card');
+    card.classList.toggle('expanded');
+    
+    if (card.classList.contains('expanded')) {
+      button.innerHTML = 'Hide Details <i class="fas fa-chevron-down chevron"></i>';
+    } else {
+      button.innerHTML = 'View Details <i class="fas fa-chevron-down chevron"></i>';
+    }
+  }
+
+  // Counter Animation
+  const counters = document.querySelectorAll('.counter');
+  let hasAnimated = false;
+
+  function animateCounter(counter) {
+    const target = parseInt(counter.getAttribute('data-target'));
+    const duration = 2000;
+    const increment = target / (duration / 16);
+    let current = 0;
+
+    const updateCounter = () => {
+      current += increment;
+      if (current < target) {
+        counter.textContent = Math.floor(current);
+        requestAnimationFrame(updateCounter);
+      } else {
+        counter.textContent = target + (target === 95 ? '%' : '+');
+      }
+    };
+
+    updateCounter();
+  }
+
+  // Scroll Animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+
+        // Animate counters when stats section is visible
+        if (entry.target.closest('.stats') && !hasAnimated) {
+          counters.forEach(counter => animateCounter(counter));
+          hasAnimated = true;
+        }
+      }
+    });
+  }, observerOptions);
+
+  // Observe fade-in elements
+  document.querySelectorAll('.fade-in').forEach(el => {
+    observer.observe(el);
+  });
+
+  // Back to Top
+  const backToTop = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      backToTop.classList.add('visible');
+    } else {
+      backToTop.classList.remove('visible');
+    }
+  });
+
+  backToTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        const navHeight = document.querySelector('header').offsetHeight;
+        const targetPosition = target.offsetTop - navHeight;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  // Form submission
+  document.getElementById('contactForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thank you for your message! We will get back to you soon.');
+    e.target.reset();
+  });
+</script>
+
+</body>
+</html>
